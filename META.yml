@@ -4,9 +4,7 @@ author:
   - 'Damian Conway (damian@conway.org)'
 build_requires:
   Test::More: 0
-configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3603'
+generated_by: 'Module::Build version 0.3614'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,7 +13,7 @@ name: Hook-LexWrap
 provides:
   Hook::LexWrap:
     file: lib/Hook/LexWrap.pm
-    version: 0.23
+    version: 0.24
   Hook::LexWrap::Cleanup:
     file: lib/Hook/LexWrap.pm
 requires:
@@ -23,4 +21,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/chorny/Hook-LexWrap
-version: 0.23
+version: 0.24
